@@ -19,6 +19,8 @@ an associative (junction) table in order to store each movie genres
 - Create DAO classes that offer methods for creating movies and genres, and finding them by their ids and names;
 - Implement a simple test using your classes.
 
+I have solved everything in compulsory.
+
 ## Optional
 - Create the necessary table(s) in order to store movie actors and directors in the database.
 - Create an object-oriented model of the data managed by the Java application.
