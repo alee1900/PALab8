@@ -3,6 +3,8 @@
 ## JDBC
 Write an application that allows to connect to a relational database by using JDBC, submit SQL statements and display the results.
 
+The main specifications of the application are:
+
 ## Compulsory
 - Create a relational database using any RDBMS (Oracle, Postgres, MySql, Java DB, etc.).
 - Write an SQL script that will create the following tables:
