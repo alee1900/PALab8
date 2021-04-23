@@ -9,14 +9,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static DBConnection.getConnection;
-
 /**
  * Class MovieDAO
  * Offers methods for creating and finding movies in DB
  */
 public class MovieDAO {
-    static Connection connection = getConnection();
+    static Connection connection = DBConnection.getConnection();
 
     /**
      * Method for adding a movie into the DB

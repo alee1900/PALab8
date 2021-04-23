@@ -9,14 +9,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static DBConnection.getConnection;
-
 /**
  * Class GenreDAO
  * Offers methods for creating and finding genres in DB
  */
 public class GenreDAO {
-    static Connection connection = getConnection();
+    static Connection connection = DBConnection.getConnection();
 
     /**
      * Method for adding a genre into the DB

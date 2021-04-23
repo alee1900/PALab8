@@ -9,14 +9,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static DBConnection.getConnection;
-
 /**
  * Class DirectorDAO
  * Offers methods for creating and finding directors in DB
  */
 public class DirectorDAO {
-    static Connection connection = getConnection();
+    static Connection connection = DBConnection.getConnection();
 
     /**
      * Method for adding a director into the DB
