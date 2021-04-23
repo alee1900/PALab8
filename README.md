@@ -27,6 +27,8 @@ I have solved everything in compulsory.
 - Create a tool to import data from a real dataset: IMDb movies extensive dataset or The Movies Dataset or other.
 - For additional points, you may consider extending your model or generating suggestive HTML reports, based on the imported data.
 
+I have solved the first three bullet points in optional.
+
 ## Bonus
 - Use a connection pool in order to manage database connections, such as C3PO, HikariCP or Apache Commons DBCP.
 - Using a ThreadPoolExecutor, create a (large?) number of concurrent tasks, each requiring a database connection in order to perform various SQL operations on the database.
