@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat;
  */
 public class ImportData {
     public ImportData() throws IOException, ParseException, SQLException {
-        CSVReader reader = new CSVReader(new FileReader("IMDb movies.csv"));
+        CSVReader reader = new CSVReader(new FileReader("G:\\Facultate\\Anul II - Sem II\\Java\\Lab 8 all\\Lab 8 optional\\IMDb movies.csv"));
 
         //read line by line
         String[] nextLine;
